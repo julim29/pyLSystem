@@ -58,7 +58,7 @@ To do this, here we have our initial string, which is called "axiom", and the ru
 Axiom:<br>
 <p align="center">F<p><br>
 Rules:<br>
-<p align="center">F -> F+F−F−F+F<p><br>
+<p align="center">F -> F-F+F+F-F<p><br>
 
 
 So, what this rule is telling us, is that each line segment `F` gets transformed into a curve of the form `F+F−F−F+F`, we can think about this as if each segment of the Koch curve is transformed into a Koch curve level 2.
