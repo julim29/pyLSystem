@@ -1,6 +1,9 @@
 # pyLSystem
 Python library designed to build fractals from L-systems.
 
+# Usage
+The simplest way to use pyLSystem is to copy this git, and start editing the "main.py" file which generates images from an L-System like the ones shown in the examples below.
+
 # What are L-systems?
 L-systems consist of a string of symbols that have a determined rule to calculate a new string of symbols that replaces the previous one. By doing this process over and over, we get new states of the system. <br>
 On the other hand, each symbol can be interpreted as an instruction to draw an image.<br>
