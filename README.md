@@ -64,10 +64,20 @@ Rules:<br>
 <p align="center">F -> F-F+F+F-F<p><br>
 
 
-So, what this rule is telling us, is that each line segment `F` gets transformed into a curve of the form `F+F−F−F+F`, we can think about this as if each segment of the Koch curve is transformed into a Koch curve level 2.
+So, what this rule is telling us, is that each line segment `F` gets transformed into a curve of the form `F+F−F−F+F`, we can think about this as if each segment of the Koch curve is transformed into a Koch curve level 2.<br>
 
+And well, that's all the basics that you need about L-systems to use this library, if you want to learn more about it, you can check its [wikipedia article](https://en.wikipedia.org/wiki/L-system).
+  
 # Example images
 Here we have some images that can be easly generated using this library.
+## Koch curve
+Koch curve after 4 iterations.
+![alt text](https://github.com/julim29/pyLSystem/blob/main/Images/Koch_curve.jpg)
+  
+## Fractal plant
+Fractal plant after 5 iterations.
+![alt text](https://github.com/julim29/pyLSystem/blob/main/Images/fractal_plant.jpg)
+  
 ## Sierpinski triangle
 Growing stages of an L-system Sierpinski triangle.
 ![alt text](https://github.com/julim29/pyLSystem/blob/main/Images/Sierpinski_0.jpg)
