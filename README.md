@@ -37,7 +37,8 @@ AAAAABAAAB<br>
   
 This is exactly what each object from the class "LSystem" in this library do, and although watching a string evolve is all fun and games, we can push this forward and assign each symbol an instruction to draw images.<br>
 
-What kind of instructions can we assign to a string of symbols?, well, Lindenmayer already thought about this, and he imagined a pointer, like a pen on a paper, each symbol tells the hand holding the pen if it should move forward, backward, or rotate. I know that a pen has cylindrical symmetry and that it doesn't really matter if we rotate it, what I mean by a "rotation" in this case, is the direction that "forward" mean, for example, if by "forward" we mean moving north, if I apply a rotation, in the next symbol, by forward I will be referring to west (obviously, we can define different angles of rotations, not just 90 degrees).<br>
+What kind of instructions can we assign to a string of symbols?, well, Lindenmayer already thought about this, and he imagined a pointer, like a pen on a paper, each symbol tells the hand holding the pen if it should move forward, backward, or rotate.<br>
+I know that a pen has cylindrical symmetry and that it doesn't really matter if we rotate it, what I mean by a "rotation" in this case, is the direction that "forward" mean, for example, if by "forward" we mean moving north, if I apply a rotation, in the next symbol by forward I will be referring to west (obviously, we can define different angles of rotations, not just 90 degrees).<br>
 <br>
 So now that we understand what kind of instructions we should define, let's define them, here we have the set of instructions that the LSystemInterpreter class from this library uses (this is usually the standard way):<br>
 <br>
