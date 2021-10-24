@@ -36,3 +36,4 @@ my_system.reset() #Resets the state of the system to its initial state
 ```
   
 # Basic use of PyGameInterpreter
+This class is a subclass of LSystemInterpreter, in the next section I will explain how you can build your own interpeter from this base class, but for now, to use PyGameInterpreter we need to create an object
